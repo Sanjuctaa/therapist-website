@@ -1,0 +1,246 @@
+
+
+@media only screen  and (max-width:600px){
+
+    /* .about{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about .img img{
+        width: 100vw;
+        height: 30vh; 
+    }
+*/  .navbar{
+        width: 100vw;
+        justify-content:center;
+    }
+    .logo{
+        flex: 20%;
+    }
+
+    .home{
+        flex: auto;
+        
+    }
+
+    .home ul{
+        display: flex;
+        padding-right: 10px;
+        justify-content: center;
+        
+    }
+
+    .home ul li{
+        
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+    .home ul li a{
+
+        padding: 10px 0px;
+    } 
+
+    .login{
+        flex: auto;
+    }
+    
+    
+    .bannertext{
+        width: 100%;
+        /* color: black; */
+    }
+
+    .banner .bannertext h2{
+        font-size: 1.3rem;
+    }
+
+    .banner .bannertext h4{
+       /* padding-top: 15px; */
+       
+        font-size: 1rem;
+        /* color: #5e5951; */
+    }
+
+    
+    .banner .bannertext button{
+        margin-top: 20px;
+        padding: 8px;
+        font-size: .7rem;
+    }
+
+    .about p{
+        width: 70vw;
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+
+    .about button{
+        margin-top: 20px;
+        padding: 8px;
+        font-size: .7rem;
+    }
+
+    .img img{
+        height: 50vh;
+       
+    }
+
+    .features{
+        width: 100%;
+         padding: 10px 0px;
+        display: inline-block;
+    }
+
+    .features .box{
+        width: 70vw;
+        flex-basis: 100%;
+        /* display: flex; */
+        margin: auto auto;
+        flex-direction: column;
+        border: none;
+        padding: 15px;
+        
+    }
+
+    .box .head h4{
+        padding: 10px 0px ;
+        margin: 0px;
+    }
+
+    .features .box p{
+        margin: 0px;
+        
+        padding: 15px;
+    }
+
+    .section_grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width:80vw;
+        /* justify-content: center; */
+        margin: auto auto;
+        margin-top: 2rem;
+        margin-bottom: 40px;
+        gap: 2rem;
+
+    }
+
+    .section_card p{
+        margin-top: 1rem;
+    }
+
+    .contact{
+    
+        width: 100vw;
+        
+    }
+
+    .contact .row{
+        width: 70vw;
+        margin: auto auto;
+    }
+
+
+    .footer{
+        width: 100vw;
+        display: inline-block;
+    }
+
+    .footer_row2{
+        justify-content: center;
+    }
+
+    .footer_row2 .link{
+        width: 80%;
+        display: inline-block;
+        display: flex;   
+        flex-basis: 100%;
+    
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+
+@media only screen  and (max-width:400px){
+
+    .home{
+        display: none;
+    }
+
+    /* .banner{
+        margin-top: 15px;
+    } */
+    .banner img{
+        
+        height:70vh;
+        object-fit: cover;
+
+    }
+
+    .section_container {
+        width: 90vw;
+        margin: auto auto;
+        padding: 2rem;
+    }
+
+    .section_container h1 {
+        margin-top: 10px;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .section_card h5 {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    .section_card:hover::before{
+        width: 600%;
+        }
+
+    .contact{
+    
+        width: 100vw;
+    }
+
+    .contact .row{
+        width: 70vw;
+        margin: auto auto;
+    }
+
+    .footer{
+        width: 100vw;
+        display: inline-block;
+    }
+
+    .footer_row2{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer_row2 .link{
+        width: 100vw;
+        display: inline-block;
+        display: flex;   
+        flex-basis: 80%;
+        margin:20px;
+    }
+
+    .link_list ul{
+        flex-basis: 100%;
+    }
+    .link_list ul li a{
+        font-size: .9rem;
+    }
+    .footer_row3 p{
+        font-size: .7rem;
+        line-height: 1rem;
+    }
+
+}
